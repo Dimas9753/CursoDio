@@ -1,17 +1,50 @@
+body{
+font: 20px;
+font-family: Arial, sans-serif;
+}
+
 .navbar{
-    background-color: aquamarine;
+    background-color: rgb(41, 52, 209);
     padding-left: 90px;
     padding-right: 90px;
+    color: white;
+}
+
+.nav-link{
+    font-weight: bold;
 }
 
 .quem-somos{
-    background-color: blue;
+    background-color: white;
+    color: black;
+}
+
+.parceiros{
+    background-color: rgb(68, 79, 238);
+    color: black;
+    padding: 30px;
+}
+
+.serviços{
+    background-color: white;
+    color: black;
+    padding-bottom: 30px;
 }
 
 .margin{
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.espaco{
+    padding-bottom: 10px;
 }
 
 .navbar-nav{
     padding-left: 30px;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
 }
