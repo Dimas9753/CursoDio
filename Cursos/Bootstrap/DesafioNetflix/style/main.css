@@ -44,6 +44,11 @@ color: #fff;
 }
 
 /* Principal*/
+
+.container{
+    margin-left: 20px;
+}
+
 .filme_principal{
 font-size: 16px;
 background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('/img/capa-house.jpg');
@@ -53,6 +58,10 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
+}
+
+.filme_principal .container{
+   width: 70%;
 }
 
 .descricao{
@@ -84,6 +93,12 @@ align-items: flex-start;
 
 .botao i{
     padding: 8px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 /* Secundario */
