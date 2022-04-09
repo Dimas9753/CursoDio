@@ -113,7 +113,7 @@ body {
 .filmes_principal {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/filmes/filmecapa.jpg');
-    height: 500px;
+    height: 550px;
     background-size: cover;
     display: flex;
     flex-direction: column;
